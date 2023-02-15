@@ -1,7 +1,7 @@
 apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
 kind: Accelerator
 metadata:
-  name: demo-input-types
+  name: new-name
   title: Demo Input Types
   description: test demo inputs types
 spec:
