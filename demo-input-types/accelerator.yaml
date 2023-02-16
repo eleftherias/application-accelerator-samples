@@ -5,6 +5,7 @@ metadata:
   title: Demo Input Types
   description: test demo inputs types
 spec:
+  dependsOn: fragment:tap-workload
   accelerator:
     iconUrl: https://raw.githubusercontent.com/simple-starters/icons/master/icon-tanzu-light.png
     tags: ["demo", "options"]
