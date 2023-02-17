@@ -8,8 +8,6 @@ spec:
   accelerator:
     iconUrl: https://raw.githubusercontent.com/simple-starters/icons/master/icon-tanzu-light.png
     tags: ["demo", "options"]
-    imports:
-    - name: tap-workload
 
     options:
 
