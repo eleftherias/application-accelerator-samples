@@ -5,4 +5,4 @@ metadata:
 spec:
   type: url
   targets:
-    - https://github.com/eleftherias/application-accelerator-samples/blob/backstage-accelerator/fragments/tap-workload/accelerator.yaml
+    - https://github.com/eleftherias/application-accelerator-samples/blob/backstage-accelerator/fragments/java-version/accelerator.yaml
