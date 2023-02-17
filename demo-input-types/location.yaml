@@ -1,0 +1,8 @@
+apiVersion: backstage.io/v1alpha1
+kind: Location
+metadata:
+  name: org-data
+spec:
+  type: url
+  targets:
+    - https://github.com/eleftherias/application-accelerator-samples/blob/backstage-accelerator/fragments/tap-workload/accelerator.yaml
