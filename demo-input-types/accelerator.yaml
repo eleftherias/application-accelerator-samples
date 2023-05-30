@@ -121,4 +121,6 @@ spec:
             label: Done?
             defaultValue: false
   engine:
-    type: YTT
+    merge:
+      - type: YTT
+      - type: Provenance
