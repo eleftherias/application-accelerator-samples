@@ -6,7 +6,7 @@ metadata:
   description: java version
 spec:
   accelerator:
-    options:
+    options: [
     - name: javaVersion
       inputType: select
       label: Java version to use
