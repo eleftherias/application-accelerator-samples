@@ -2,7 +2,7 @@ apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
 kind: Fragment
 metadata:
   name: java-version
-  title: Java Version
+  title: Java Version 2
   description: java version
 spec:
   accelerator:
