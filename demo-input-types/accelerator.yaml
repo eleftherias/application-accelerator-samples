@@ -2,7 +2,7 @@ apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
 kind: Accelerator
 metadata:
   name: new-name
-  title: Demo Input Types?
+  title: Demo Input Types
   description: test demo inputs types
 spec:
   accelerator:
@@ -109,7 +109,7 @@ spec:
       - name: Task
         struct:
           - name: title
-            dataType: bad
+            dataType: string
             label: Title
             description: A sample title
           - name: details
