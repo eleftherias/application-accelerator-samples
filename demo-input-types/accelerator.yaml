@@ -109,7 +109,7 @@ spec:
       - name: Task
         struct:
           - name: title
-            dataType: string
+            dataType: bad
             label: Title
             description: A sample title
           - name: details
@@ -124,4 +124,3 @@ spec:
     merge:
       - type: YTT
       - type: Provenance
-      - type: DoesNotExist
