@@ -124,3 +124,4 @@ spec:
     merge:
       - type: YTT
       - type: Provenance
+      - type: DoesNotExist
