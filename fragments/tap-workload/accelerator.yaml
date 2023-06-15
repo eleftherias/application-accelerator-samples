@@ -6,6 +6,7 @@ spec:
   accelerator:
     imports:
       - name: java-version
+      - name: does-not-exist
   engine:
     let:
       - name: repoUrlUpdated
