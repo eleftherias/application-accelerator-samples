@@ -9,7 +9,7 @@ spec:
     options:
     - name: javaVersion
       inputType: select
-      dataType: string
+      dataType: invalid
       label: Java version to use
       choices:
       - value: "1.8"
