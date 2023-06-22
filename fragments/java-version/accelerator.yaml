@@ -8,7 +8,7 @@ spec:
   accelerator:
     options:
     - name: javaVersion
-      inputType: invalid
+      inputType: select
       dataType: string
       label: Java version to use
       choices:
