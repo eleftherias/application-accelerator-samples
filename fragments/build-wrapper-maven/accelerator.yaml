@@ -1,14 +1,18 @@
-accelerator:
-  displayName: Include build tool wrapper
+apiVersion: accelerator.apps.tanzu.vmware.com/v1alpha1
+kind: Fragment
+metadata:
+  name: build-wrapper-maven
+  title: Build Wrapper Maven
+spec:
+  accelerator:
+    options:
+      - name: includeBuildToolWrapper
+        inputType: checkbox
+        label: Include Build Tool wrapper support
+        dataType: boolean
+        defaultValue: true
 
-  options:
-    - name: includeBuildToolWrapper
-      inputType: checkbox
-      label: Include Build Tool wrapper support
-      dataType: boolean
-      defaultValue: true
-
-engine:
-  merge:
-    - condition: "#includeBuildToolWrapper"
-      include: [ "mvnw", "mvnw.cmd", ".mvn/**" ]
+  engine:
+    merge:
+      - condition: "#includeBuildToolWrapper"
+        include: [ "mvnw", "mvnw.cmd", ".mvn/**" ]
